@@ -5,4 +5,56 @@
 
 body {
     background: whote;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/** Start of header **
+**********************/
+header {
+   /* background: red;*/
+    height: 75px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; /* aligns elements to the bottom of the header */
+    z-index: 2;
+}
+
+.menu {
+    flex: 0;
+}
+
+.logo {
+    flex:1;
+}
+/** End of header **
+********************/
+
+/** Start of main **
+********************/
+main {
+    /*background: green;*/
+    text-align: center;
+    margin-top: 200px;    
+    font-size: 90px;  
+}
+
+span {
+    display: inline-block;
+    border-top: 12px solid #707070;
+}
+
+/** End of main **
+******************/
+
+/** Start of media queries **
+*****************************/
+
+@media (max-width: 900px) {
+    main {
+        font-size: 60px;
+    }
 }
