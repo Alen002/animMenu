@@ -7,16 +7,17 @@ body {
     background: whote;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    font-size: 20px; /* by default */
 }
 
 /** Start of header **
 **********************/
 header {
-   /* background: red;*/
+   background: red;
     height: 75px;
     font-size: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
     display: flex;
     flex-direction: row;
     align-items: flex-end; /* aligns elements to the bottom of the header */
@@ -25,6 +26,7 @@ header {
 
 .menu {
     flex: 0;
+    cursor: pointer;
 }
 
 .logo {
@@ -35,7 +37,7 @@ header {
 
 /** Start of main **
 ********************/
-main {
+section {
     /*background: green;*/
     text-align: center;
     margin-top: 200px;    
@@ -46,15 +48,53 @@ span {
     display: inline-block;
     border-top: 12px solid #707070;
 }
-
 /** End of main **
 ******************/
+
+/** Start of nav **
+*******************/
+nav {
+    position: absolute; /* it is in front of all elements */
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+ }
+
+#exit {
+    float: right;
+    padding-right: 1%;
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10% auto 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 80%;
+    background: red;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 2%;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.show-menu {
+    display: block;
+}
 
 /** Start of media queries **
 *****************************/
 
 @media (max-width: 900px) {
-    main {
+    section {
         margin-top: 100px;  
         font-size: 60px;
     }

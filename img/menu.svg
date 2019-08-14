@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101.979" height="48" viewBox="0 0 101.979 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="101.979" height="48" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Menu" clip-path="url(#clip-path)">
+    <g transform="translate(-1776.573 -43.5)">
+      <path id="Path_1" data-name="Path 1" d="M.073,4.143H102.052" transform="translate(1776.5 44.357)" fill="none" stroke="#030303" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    </g>
+    <g transform="translate(-1776.573 -24.5)">
+      <path id="Path_1-2" data-name="Path 1" d="M.073,4.143H102.052" transform="translate(1776.5 44.357)" fill="none" stroke="#030303" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    </g>
+    <g transform="translate(-1776.573 -5.5)">
+      <path id="Path_1-3" data-name="Path 1" d="M.073,4.143H102.052" transform="translate(1776.5 44.357)" fill="none" stroke="#030303" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    </g>
+  </g>
+</svg>
